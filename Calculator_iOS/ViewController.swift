@@ -422,6 +422,7 @@ class ViewController: UIViewController {
                 let errorAlert = UIAlertController(title: "Invalid input", message: "Unable to perform operation. Try again", preferredStyle: .alert)
                 
                 errorAlert.addAction(UIAlertAction(title: "OK", style: .default))
+                
                 self.present(errorAlert, animated: true, completion: nil)
                 
             }
@@ -431,6 +432,7 @@ class ViewController: UIViewController {
             let errorAlert = UIAlertController(title: "Nothing to equal", message: "No data to calculate. Please enter your details and try again.", preferredStyle: .actionSheet)
             
             errorAlert.addAction(UIAlertAction(title: "Try again", style: .cancel))
+            
             self.present(errorAlert, animated: true, completion: nil)
             
         }
