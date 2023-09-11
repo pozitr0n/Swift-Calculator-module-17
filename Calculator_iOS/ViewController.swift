@@ -38,6 +38,7 @@ class ViewController: UIViewController {
     var workingOperations: String = ""
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         buttonPercent.addTarget(self, action: #selector(buttonPercentTouchUpInside), for: .touchUpInside)
