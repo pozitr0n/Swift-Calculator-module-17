@@ -344,8 +344,10 @@ class ViewController: UIViewController {
     func clearTheSymbols(_ allTheSymbols: Bool) {
         
         if allTheSymbols {
+            
             workingOperations = ""
             workAndResult.text = workingOperations
+            
         } else {
             
             if !workingOperations.isEmpty {
